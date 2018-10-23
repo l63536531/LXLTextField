@@ -6,7 +6,8 @@
 //  Copyright © 2018年 XNB4. All rights reserved.
 //
 
-#import "AppDelegate.h"  
+#import "AppDelegate.h"
+
 
 @interface AppDelegate ()
 
