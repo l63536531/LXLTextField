@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18035970217F5D840045ED0D /* lxlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803596F217F5D840045ED0D /* lxlViewController.m */; };
 		BD921550202166C00035284E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD92154F202166C00035284E /* main.m */; };
 		BD921553202166C00035284E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD921552202166C00035284E /* AppDelegate.m */; };
 		BD921556202166C00035284E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD921555202166C00035284E /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1803596E217F5D840045ED0D /* lxlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lxlViewController.h; sourceTree = "<group>"; };
+		1803596F217F5D840045ED0D /* lxlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lxlViewController.m; sourceTree = "<group>"; };
 		BD92154B202166C00035284E /* LXLTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXLTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD92154F202166C00035284E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD921551202166C00035284E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 				BD921552202166C00035284E /* AppDelegate.m */,
 				BD921554202166C00035284E /* ViewController.h */,
 				BD921555202166C00035284E /* ViewController.m */,
+				1803596E217F5D840045ED0D /* lxlViewController.h */,
+				1803596F217F5D840045ED0D /* lxlViewController.m */,
 				BD921557202166C00035284E /* Main.storyboard */,
 				BD92155A202166C00035284E /* Assets.xcassets */,
 				BD92155C202166C00035284E /* LaunchScreen.storyboard */,
@@ -292,6 +297,7 @@
 				BD921556202166C00035284E /* ViewController.m in Sources */,
 				BD9215842021673D0035284E /* UITextField+Extension.m in Sources */,
 				BD921553202166C00035284E /* AppDelegate.m in Sources */,
+				18035970217F5D840045ED0D /* lxlViewController.m in Sources */,
 				BD921550202166C00035284E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +538,7 @@
 				BD92157A202166C00035284E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD92157B202166C00035284E /* Build configuration list for PBXNativeTarget "LXLTextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +547,7 @@
 				BD92157D202166C00035284E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD92157E202166C00035284E /* Build configuration list for PBXNativeTarget "LXLTextFieldUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +556,7 @@
 				BD921580202166C00035284E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
